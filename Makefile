@@ -12,3 +12,6 @@ build-release:
 
 doc:
 	rustup doc
+
+lib:
+	cargo new xxx --lib

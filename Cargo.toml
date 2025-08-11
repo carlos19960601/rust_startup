@@ -1,6 +1,4 @@
-[package]
-name = "rust_startup"
-version = "0.1.0"
-edition = "2024"
+[workspace]
+resolver = "3"
+members = [ "doubao-api","reqwest_startup"]
 
-[dependencies]
